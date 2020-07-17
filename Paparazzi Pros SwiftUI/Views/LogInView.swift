@@ -12,19 +12,20 @@ import SwiftUI
 struct LogInView: View {
     @State private var userName = ""
     @State private var password = ""
-    @State private var isLoaderVisible: Bool = true
+    @ObservedObject var loginViewModel =  LoginViewModel(withEmail: "", andPassword: "")
+    @State private var showAlert = false
     
     @ViewBuilder
     var body: some View {
+        
         GeometryReader { geometry in
             ZStack{
-                if self.isLoaderVisible{
+                if self.loginViewModel.isLoading{
                     Loader().zIndex(1.0).shadow(radius: 30)
                 }else{
                     Loader().zIndex(0.0)
                     .hidden()
                 }
-                
                 Image("background_login")
                     .resizable()
                     .aspectRatio(geometry.size, contentMode: .fill)
@@ -76,6 +77,7 @@ struct LogInView: View {
                                         //LOGIN Button
                                         Button(action: {
                                             print("I have been clicked")
+                                                self.loginViewModel.authenticateUser(withUsername: self.userName, andPassword: self.password)
                                         }) {
                                             Text("LOG IN")
                                             .padding(12)
@@ -84,7 +86,10 @@ struct LogInView: View {
                                             .frame(maxWidth: .infinity)
                                             .background(Color(hex: Constants.COLOR_BUTTON_RED_BRIGHT))
                                                 .cornerRadius(Constants.RADIUS_SUBVIEW_CORNER)
+                                        }.alert(isPresented: self.$showAlert) {
+                                            Alert(title: Text("Important message"), message: Text("Wear sunscreen"), dismissButton: .default(Text("Got it!")))
                                         }
+//                                        self.loginViewModel.isLoggedIn ? Text("LoggedIn") : Text("NOT LoggedIn")
                                         
                                         //Forgot password
                                         Button(action: {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05CC9AE324C095A0008E5511 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CC9AE224C095A0008E5511 /* Util.swift */; };
+		05CC9AE524C09AB8008E5511 /* PaparazziError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CC9AE424C09AB8008E5511 /* PaparazziError.swift */; };
 		05EBA71324BE11E600ECC90D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA71224BE11E600ECC90D /* AppDelegate.swift */; };
 		05EBA71524BE11E600ECC90D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA71424BE11E600ECC90D /* SceneDelegate.swift */; };
 		05EBA71724BE11E600ECC90D /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA71624BE11E600ECC90D /* LogInView.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05CC9AE224C095A0008E5511 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		05CC9AE424C09AB8008E5511 /* PaparazziError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaparazziError.swift; sourceTree = "<group>"; };
 		05EBA70F24BE11E600ECC90D /* Paparazzi Pros SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paparazzi Pros SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05EBA71224BE11E600ECC90D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05EBA71424BE11E600ECC90D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				05EBA72924BEFADB00ECC90D /* Color+Hex.swift */,
 				05EBA73624BF058B00ECC90D /* Constants.swift */,
 				05EBA73E24BF4A3700ECC90D /* View+CornerRadius.swift */,
+				05CC9AE224C095A0008E5511 /* Util.swift */,
+				05CC9AE424C09AB8008E5511 /* PaparazziError.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -227,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05CC9AE324C095A0008E5511 /* Util.swift in Sources */,
 				05EBA72A24BEFADB00ECC90D /* Color+Hex.swift in Sources */,
 				05EBA71324BE11E600ECC90D /* AppDelegate.swift in Sources */,
 				05EBA72824BEF63800ECC90D /* UIColor+Hex.swift in Sources */,
@@ -237,6 +244,7 @@
 				05EBA73F24BF4A3700ECC90D /* View+CornerRadius.swift in Sources */,
 				05EBA73724BF058B00ECC90D /* Constants.swift in Sources */,
 				05EBA73924BF354A00ECC90D /* LoginViewModel.swift in Sources */,
+				05CC9AE524C09AB8008E5511 /* PaparazziError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

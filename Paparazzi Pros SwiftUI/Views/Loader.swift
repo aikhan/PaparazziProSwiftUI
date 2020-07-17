@@ -25,7 +25,6 @@ struct Loader: View {
                     .frame(width: 125, height: 200, alignment: .center)
                     .shadow(radius: 20)
                 VStack{
-//                    Circle().trim(from: 0, to:  0.8).stroke(AngularGradient(gradient: .init(colors: [.red, .gray]), center: .center), style: StrokeStyle(lineWidth: 8, lineCap: .round)).frame(width: 45, height: 45)
                     Text("Paparazzi Pro")
                         .font(.custom(Constants.MONTSERRAT_LIGHT, size: 15))
                         .foregroundColor(Color(.white))
@@ -51,8 +50,8 @@ struct Loader: View {
 struct Loader_Previews: PreviewProvider {
     static var previews: some View {
         Group{
-            LogInView()
-                .previewDevice("iPhone 11 Pro Max")
+//            LogInView()
+//                .previewDevice("iPhone 11 Pro Max")
             Loader()
             }
         }

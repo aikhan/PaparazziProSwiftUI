@@ -35,4 +35,15 @@ struct Constants {
     static let RADIUS_VIEW_CORNER: CGFloat = 9.0
     static let RADIUS_SUBVIEW_CORNER: CGFloat = 25.0
     
+    private init() {}
+    
+    
+    struct API{
+        
+        private init() {}
+        
+    }
 }
+
+
+

@@ -13,7 +13,7 @@ struct LogInView: View {
     @State private var userName = ""
     @State private var password = ""
     @ObservedObject var loginViewModel =  LoginViewModel(withEmail: "", andPassword: "")
-    @State private var showAlert = false
+    @State var showAlert = false
     
     @ViewBuilder
     var body: some View {
@@ -86,10 +86,9 @@ struct LogInView: View {
                                             .frame(maxWidth: .infinity)
                                             .background(Color(hex: Constants.COLOR_BUTTON_RED_BRIGHT))
                                                 .cornerRadius(Constants.RADIUS_SUBVIEW_CORNER)
-                                        }.alert(isPresented: self.$showAlert) {
-                                            Alert(title: Text("Important message"), message: Text("Wear sunscreen"), dismissButton: .default(Text("Got it!")))
+                                        }.alert(isPresented: self.$loginViewModel.hasLoginError) {
+                                            Alert(title: Text("Error"), message: Text(self.loginViewModel.loginError.description), dismissButton: .default(Text("OK")))
                                         }
-//                                        self.loginViewModel.isLoggedIn ? Text("LoggedIn") : Text("NOT LoggedIn")
                                         
                                         //Forgot password
                                         Button(action: {
@@ -174,6 +173,7 @@ struct ContentView_Previews: PreviewProvider {
                 .previewDevice("iPhone SE")
             LogInView()
                 .previewDevice("iPhone 11 Pro Max")
+            
         }
     }
 }

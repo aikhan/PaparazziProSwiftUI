@@ -8,15 +8,23 @@
 
 import Foundation
 
-struct PaparazziError: Error {
+public struct PaparazziError: Error {
     enum ErrorKind {
         case invalidCharacters
         case invalidCredentials
+        case offlineError
         case unKnownError
         case None
     }
     
-    let kind: ErrorKind
-    let description: String
-    let descriptionDetail: String
+    var kind: ErrorKind
+    var description: String
+    var descriptionDetail :String
+    
+    init(kind: ErrorKind = .None, description: String = "", descriptionDetail: String = "") {
+        self.kind = kind
+        self.description = description
+        self.descriptionDetail = descriptionDetail
+    }
+    
 }

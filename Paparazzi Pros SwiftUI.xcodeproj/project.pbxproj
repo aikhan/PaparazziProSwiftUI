@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		059E86A624C212E1008C68BB /* Authenticatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E86A524C212E1008C68BB /* Authenticatable.swift */; };
+		059E86A824C21630008C68BB /* FirebaseAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E86A724C21630008C68BB /* FirebaseAuthentication.swift */; };
 		05CC9AE324C095A0008E5511 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CC9AE224C095A0008E5511 /* Util.swift */; };
 		05CC9AE524C09AB8008E5511 /* PaparazziError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CC9AE424C09AB8008E5511 /* PaparazziError.swift */; };
 		05EBA71324BE11E600ECC90D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA71224BE11E600ECC90D /* AppDelegate.swift */; };
@@ -27,9 +29,12 @@
 		05EBA73C24BF387D00ECC90D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA73B24BF387D00ECC90D /* User.swift */; };
 		05EBA73F24BF4A3700ECC90D /* View+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA73E24BF4A3700ECC90D /* View+CornerRadius.swift */; };
 		05EBA74324BF661500ECC90D /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA74224BF661500ECC90D /* Loader.swift */; };
+		BA53CBBC9177DEA4510470B2 /* Pods_Paparazzi_Pros_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6A1CC9E9CCBCCC7BFEA518 /* Pods_Paparazzi_Pros_SwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		059E86A524C212E1008C68BB /* Authenticatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticatable.swift; sourceTree = "<group>"; };
+		059E86A724C21630008C68BB /* FirebaseAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthentication.swift; sourceTree = "<group>"; };
 		05CC9AE224C095A0008E5511 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		05CC9AE424C09AB8008E5511 /* PaparazziError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaparazziError.swift; sourceTree = "<group>"; };
 		05EBA70F24BE11E600ECC90D /* Paparazzi Pros SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paparazzi Pros SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +57,9 @@
 		05EBA73B24BF387D00ECC90D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		05EBA73E24BF4A3700ECC90D /* View+CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+CornerRadius.swift"; sourceTree = "<group>"; };
 		05EBA74224BF661500ECC90D /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		3C35105FFE8BE0A02DFE41DB /* Pods-Paparazzi Pros SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paparazzi Pros SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-Paparazzi Pros SwiftUI/Pods-Paparazzi Pros SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		AE6A1CC9E9CCBCCC7BFEA518 /* Pods_Paparazzi_Pros_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paparazzi_Pros_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC286A9F36B47D49F873EF8F /* Pods-Paparazzi Pros SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paparazzi Pros SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-Paparazzi Pros SwiftUI/Pods-Paparazzi Pros SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA53CBBC9177DEA4510470B2 /* Pods_Paparazzi_Pros_SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059E86A924C21639008C68BB /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				059E86A524C212E1008C68BB /* Authenticatable.swift */,
+				059E86A724C21630008C68BB /* FirebaseAuthentication.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		05EBA70624BE11E600ECC90D = {
 			isa = PBXGroup;
 			children = (
 				05EBA71124BE11E600ECC90D /* Paparazzi Pros SwiftUI */,
 				05EBA71024BE11E600ECC90D /* Products */,
+				9F79F51B8F0A65C8DD80F012 /* Pods */,
+				3F64CB7491845911A5623FF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				05EBA73B24BF387D00ECC90D /* User.swift */,
+				059E86A924C21639008C68BB /* Authentication */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +178,24 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		3F64CB7491845911A5623FF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6A1CC9E9CCBCCC7BFEA518 /* Pods_Paparazzi_Pros_SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F79F51B8F0A65C8DD80F012 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C35105FFE8BE0A02DFE41DB /* Pods-Paparazzi Pros SwiftUI.debug.xcconfig */,
+				BC286A9F36B47D49F873EF8F /* Pods-Paparazzi Pros SwiftUI.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05EBA72324BE11EA00ECC90D /* Build configuration list for PBXNativeTarget "Paparazzi Pros SwiftUI" */;
 			buildPhases = (
+				B6BEC6B3BE9BB4397AE127A6 /* [CP] Check Pods Manifest.lock */,
 				05EBA70B24BE11E600ECC90D /* Sources */,
 				05EBA70C24BE11E600ECC90D /* Frameworks */,
 				05EBA70D24BE11E600ECC90D /* Resources */,
@@ -228,6 +268,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B6BEC6B3BE9BB4397AE127A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Paparazzi Pros SwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05EBA70B24BE11E600ECC90D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -237,6 +302,7 @@
 				05EBA72A24BEFADB00ECC90D /* Color+Hex.swift in Sources */,
 				05EBA71324BE11E600ECC90D /* AppDelegate.swift in Sources */,
 				05EBA72824BEF63800ECC90D /* UIColor+Hex.swift in Sources */,
+				059E86A624C212E1008C68BB /* Authenticatable.swift in Sources */,
 				05EBA71524BE11E600ECC90D /* SceneDelegate.swift in Sources */,
 				05EBA74324BF661500ECC90D /* Loader.swift in Sources */,
 				05EBA73C24BF387D00ECC90D /* User.swift in Sources */,
@@ -244,6 +310,7 @@
 				05EBA73F24BF4A3700ECC90D /* View+CornerRadius.swift in Sources */,
 				05EBA73724BF058B00ECC90D /* Constants.swift in Sources */,
 				05EBA73924BF354A00ECC90D /* LoginViewModel.swift in Sources */,
+				059E86A824C21630008C68BB /* FirebaseAuthentication.swift in Sources */,
 				05CC9AE524C09AB8008E5511 /* PaparazziError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +445,7 @@
 		};
 		05EBA72424BE11EA00ECC90D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C35105FFE8BE0A02DFE41DB /* Pods-Paparazzi Pros SwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +466,7 @@
 		};
 		05EBA72524BE11EA00ECC90D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC286A9F36B47D49F873EF8F /* Pods-Paparazzi Pros SwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

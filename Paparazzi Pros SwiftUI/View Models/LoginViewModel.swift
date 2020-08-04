@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Combine
 
 class LoginViewModel: ObservableObject{
     var isLoading = false
@@ -19,12 +20,14 @@ class LoginViewModel: ObservableObject{
     private var user: User
     private var utilities = Util()
     
+    var cancelAble: AnyCancellable?
+    
     @Published var isLoggedIn :Bool
     @Published var hasLoginError: Bool = false
     
     
     init(withEmail email: String, andPassword password: String){
-        user = User(email: email, password: password)
+        user = User()
         isLoggedIn = false
     }
     func authenticateUser(withUsername username: String, andPassword password: String) {
@@ -33,10 +36,20 @@ class LoginViewModel: ObservableObject{
             print("User authentication Failed")
             print(loginError.description)
         }else{
-            self.isLoggedIn = user.authenticateUsing(email: username, password: password)
-            objectWillChange.send()
+            isLoading = true
+            let authPublisher = user.authenticateUser(withEmail: username, andPassword: password)
+            cancelAble = authPublisher.sink(receiveCompletion: { [unowned self] completion in
+                if case .failure(let error) = completion { self.loginError = error
+                    self.isLoading = false
+                    self.hasLoginError = true
+                    print("Auth FAILED! \(self.loginError)")
+                }
+            }) {[unowned self] (value) in
+                print("Auth SUCCESS! \(value)")
+                self.isLoading = false
+                self.isLoggedIn = value
+            }
         }
-        
     }
     
     func validateFields(email: String, password: String) -> (PaparazziError) {
@@ -63,5 +76,8 @@ class LoginViewModel: ObservableObject{
         loginError = PaparazziError(kind: .None, description: "", descriptionDetail: "")
         hasLoginError = false
         return loginError
+    }
+    deinit {
+        cancelAble?.cancel()
     }
 }

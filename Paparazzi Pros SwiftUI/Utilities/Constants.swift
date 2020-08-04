@@ -35,6 +35,8 @@ struct Constants {
     static let RADIUS_VIEW_CORNER: CGFloat = 9.0
     static let RADIUS_SUBVIEW_CORNER: CGFloat = 25.0
     
+    
+    
     private init() {}
     
     
@@ -43,6 +45,12 @@ struct Constants {
         private init() {}
         
     }
+}
+
+public enum UserType {
+    case Paparazzi
+    case Customer
+    case None
 }
 
 

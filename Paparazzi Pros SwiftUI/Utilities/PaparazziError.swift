@@ -12,6 +12,7 @@ public struct PaparazziError: Error {
     enum ErrorKind {
         case invalidCharacters
         case invalidCredentials
+        case invalidOAuthProvider
         case offlineError
         case unKnownError
         case None

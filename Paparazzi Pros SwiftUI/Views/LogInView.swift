@@ -13,12 +13,12 @@ struct LogInView: View {
     @State private var userName = ""
     @State private var password = ""
     @ObservedObject var loginViewModel =  LoginViewModel(withEmail: "", andPassword: "")
-    @State var showAlert = false
     
+    @State var showAlert = false
     @ViewBuilder
     var body: some View {
-        
-        GeometryReader { geometry in
+            GeometryReader { geometry in
+            
             ZStack{
                 if self.loginViewModel.isLoading{
                     Loader().zIndex(1.0).shadow(radius: 30)
@@ -26,10 +26,10 @@ struct LogInView: View {
                     Loader().zIndex(0.0)
                     .hidden()
                 }
-                Image("background_login")
-                    .resizable()
-                    .aspectRatio(geometry.size, contentMode: .fill)
-                    .edgesIgnoringSafeArea(.all)
+                    Image("background_login")
+                        .resizable()
+                        .aspectRatio(geometry.size, contentMode: .fill)
+                        .edgesIgnoringSafeArea(.all)
                 VStack(alignment: .center){
                     Image("Logo")
                     ScrollView {
@@ -87,9 +87,9 @@ struct LogInView: View {
                                             .background(Color(hex: Constants.COLOR_BUTTON_RED_BRIGHT))
                                                 .cornerRadius(Constants.RADIUS_SUBVIEW_CORNER)
                                         }.alert(isPresented: self.$loginViewModel.hasLoginError) {
-                                            Alert(title: Text("Error"), message: Text(self.loginViewModel.loginError.description), dismissButton: .default(Text("OK")))
+                                            Alert(title: Text(self.loginViewModel.loginError.description), message: Text(self.loginViewModel.loginError.descriptionDetail), dismissButton: .default(Text("OK")))
                                         }
-                                        
+                                        //loginViewModel.isLoggedIn ? Text("LoggedIn") : Text("NOT LoggedIn")
                                         //Forgot password
                                         Button(action: {
                                             print("Forgot username / Reset password")
@@ -160,9 +160,8 @@ struct LogInView: View {
                         .padding()
                     }
                 }
-                
+                }
             }
-        }
     }
 }
 

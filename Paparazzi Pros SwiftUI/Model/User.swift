@@ -7,28 +7,68 @@
 //
 
 import Foundation
+import Combine
+import FirebaseAuth
 
-struct User {
-    private var email: String
-    private var password: String
-    private var isLoggedIn = false
-    private var isPaparazzi = false
+struct User: Authenticatable {
+
+    var userType: UserType = .None
+    var profile: Profile = Profile()
+
+    var isAuthenticated: Bool {
+        get{
+            let defaults = UserDefaults.standard
+            return defaults.bool(forKey: "isAuthenticated")
+        }
+        set{
+            let defaults = UserDefaults.standard
+            defaults.set(newValue, forKey: "isAuthenticated")
+        }
+    }
     
-    func authenticateUsing(email: String, password: String) -> Bool{
-        print("User name is \(email) & password is \(password)")
+    mutating func signOut() {
+        do{
+            try Auth.auth().signOut()
+            isAuthenticated = false
+        }
+        catch{
+            print("Error : \(error.localizedDescription)")
+        }
+        
+    }
+}
+
+extension User: AuthenticatableCredentials{
+    func authenticateUser(withEmail email: String, andPassword password: String) -> Future<Bool, PaparazziError> {
+        print("Authenticte with username and password using Firebase")
+        let future = Future<Bool, PaparazziError> { promise in
+            Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
+                if let error = error {
+                    print("Emit Error + \(error.localizedDescription)")
+                    promise(.failure(.init(kind: .invalidCredentials, description: "Error", descriptionDetail: error.localizedDescription)))
+                }else{
+                    let defaults = UserDefaults.standard
+                    defaults.set(true, forKey: "isAuthenticated")
+                    promise(.success(true))
+                }
+            }        }
+        return future
+    }
+}
+
+extension User: AuthenticatableOAuth{
+    func authenticateUser(usingOAuthProvider provider: AuthenticationType, withAPIKey key: String) throws {
+        guard provider != .Google || provider != .Facebook else {
+            let error = PaparazziError.init(kind: .invalidOAuthProvider, description: "Invalid OAuth Provider", descriptionDetail: "Another OAuth Provider used instead of \(provider)")
+            throw error
+        }
+        _ = provider == .Facebook ? authenticateUsingFacebook(usingAPIKey: key) : authenticateUsingGoogle(usingAPIKey: key)
+    }
+    
+    func authenticateUsingFacebook(usingAPIKey key: String) -> Bool {
         return true
     }
-        
-    
-    init(email: String, password: String) {
-        self.email = email
-        self.password = password
-    }
-  
-   mutating func setIsLoggedIn(value: Bool){
-        isLoggedIn = value
-    }
-    func getIsLoggedIn() -> Bool{
-         isLoggedIn
+    func authenticateUsingGoogle(usingAPIKey key: String) -> Bool {
+        return true
     }
 }

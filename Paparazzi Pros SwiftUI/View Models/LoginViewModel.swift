@@ -12,11 +12,6 @@ import Combine
 class LoginViewModel: ObservableObject{
     var isLoading = false
     var loginError = PaparazziError()
-//    var hasError: Bool{
-//        get{
-//            loginError.kind == .None ? false : true
-//        }
-//    }
     private var user: User
     private var utilities = Util()
     
@@ -26,7 +21,7 @@ class LoginViewModel: ObservableObject{
     @Published var hasLoginError: Bool = false
     
     
-    init(withEmail email: String, andPassword password: String){
+    init(){
         user = User()
         isLoggedIn = false
     }

@@ -20,16 +20,13 @@ struct User: Authenticatable {
             let defaults = UserDefaults.standard
             return defaults.bool(forKey: "isAuthenticated")
         }
-        set{
-            let defaults = UserDefaults.standard
-            defaults.set(newValue, forKey: "isAuthenticated")
-        }
     }
     
-    mutating func signOut() {
+    func signOut() {
         do{
             try Auth.auth().signOut()
-            isAuthenticated = false
+            let defaults = UserDefaults.standard
+            defaults.set(false, forKey: "isAuthenticated")
         }
         catch{
             print("Error : \(error.localizedDescription)")
@@ -39,7 +36,7 @@ struct User: Authenticatable {
 }
 
 extension User: AuthenticatableCredentials{
-    func authenticateUser(withEmail email: String, andPassword password: String) -> Future<Bool, PaparazziError> {
+    func authenticateUser(withEmail email: String, andPassword password: String) -> AnyPublisher<Bool, PaparazziError> {
         print("Authenticte with username and password using Firebase")
         let future = Future<Bool, PaparazziError> { promise in
             Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
@@ -51,7 +48,8 @@ extension User: AuthenticatableCredentials{
                     defaults.set(true, forKey: "isAuthenticated")
                     promise(.success(true))
                 }
-            }        }
+            }
+        }.eraseToAnyPublisher()
         return future
     }
 }

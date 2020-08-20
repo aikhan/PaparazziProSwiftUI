@@ -11,10 +11,10 @@ import Combine
 
 public protocol Authenticatable {
     
-    var isAuthenticated: Bool {get set}
+    var isAuthenticated: Bool {get}
     var userType: UserType {get set}
     
-    mutating func signOut()
+    func signOut()
 }
 
 
@@ -23,7 +23,7 @@ public protocol AuthenticatableOAuth: Authenticatable{
 }
 
 public protocol AuthenticatableCredentials: Authenticatable{
-    func authenticateUser(withEmail email: String, andPassword password: String) -> Future<Bool, PaparazziError>
+    func authenticateUser(withEmail email: String, andPassword password: String) -> AnyPublisher<Bool, PaparazziError>
 }
 
 public enum AuthenticationType{

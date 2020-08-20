@@ -366,7 +366,7 @@
 		9A8DBAAC3206088BB08DB537AB101C47 /* FBLPromise+Wrap.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 5023DF00CF7005EE51E42FABB084B854 /* FBLPromise+Wrap.h */; };
 		9ADA7D33D62AF466F2F6F75F92286525 /* GoogleUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 002D5C6CA39F193C2913292555C60B98 /* GoogleUtilities-dummy.m */; };
 		9B2380A1659D6B2E356D20BC71BD006B /* FBLPromisePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC336CEF2738CA1C337D4450BB46564 /* FBLPromisePrivate.h */; };
-		9B7C33D7C93DB94D50FF67155DF4ED6C /* Pods-Paparazzi Pros SwiftUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBC27E6550209C8DF1E39727BF698204 /* Pods-Paparazzi Pros SwiftUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B7C33D7C93DB94D50FF67155DF4ED6C /* Pods-Paparazzi Pros SwiftUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D307DE56726394DF4635295B3B4AE4 /* Pods-Paparazzi Pros SwiftUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C50A10EF0B1CCABD570B6636BA6AED6 /* GULAppEnvironmentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A99C87CC34D48B8EF374E874DDC6C5 /* GULAppEnvironmentUtil.m */; };
 		9C5B27C4DEC983FBAE4698758D3ABE01 /* FIRComponentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 62459E97DD1E0BC3D0C531CFD2D2FB72 /* FIRComponentType.m */; };
 		9C7AB5972F59BF826D4F4E022C702447 /* FIRComponentContainerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA5EFA4BB3FE67D77F19B06B242FB09 /* FIRComponentContainerInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -376,6 +376,7 @@
 		9F82A8206BCA41019EB88426343BBD72 /* FIRStartMFASignInResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B31C2411D03A9868BA596DE66621A1E0 /* FIRStartMFASignInResponse.m */; };
 		A01D6295E5AEB37BB43119D8096F8563 /* FIRVerifyPasswordRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAA43768D00452B684CF751F6EF386D /* FIRVerifyPasswordRequest.m */; };
 		A0A089420FC320228C22B989EA5D6556 /* FIRSignInWithGameCenterRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFE36141CE467368772DF36E11688ED /* FIRSignInWithGameCenterRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1D23F387107349228013FA911E20147 /* Pods-Paparazzi Pros SwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86206C4B94701E69CE19E9A83F455B5E /* Pods-Paparazzi Pros SwiftUITests-dummy.m */; };
 		A200CF1B7D0CC29CB0C1FF188AF2DDAF /* FIROAuthCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = D15D2C98E9C0E89E30BD2D1F3A8AA2DF /* FIROAuthCredential.m */; };
 		A26BE42DA21F7199C5BF5B6B4A118F20 /* FIRVerifyCustomTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B9F92494626404C7BF9CEA8D3B4A0D /* FIRVerifyCustomTokenResponse.m */; };
 		A310523F8B57A26E7D3D829650C9385C /* GDTCOREvent+NetworkConnectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDDD6C892F5067312F28B97E699727C /* GDTCOREvent+NetworkConnectionInfo.m */; };
@@ -416,6 +417,7 @@
 		B1C94DA4E97D9E2EA339D3ED8466D1C2 /* GDTCORTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DD5DC1A9452F67D38491644348F44E /* GDTCORTransport.m */; };
 		B2FC5264E76184E7B70D9BD46631FF46 /* GDTCORFlatFileStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = C1224134FBEF6EAB9F936EE22246DEDC /* GDTCORFlatFileStorage.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B70C3EDBDBEAEAAA956DB309E930BA77 /* FIRBundleUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E14F1A57979468A85ED5B97B249164C /* FIRBundleUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7D80CA5CBCC9271BB85CE379CD0492F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B81BA9EBB8B4F8A480378927A8D39D05 /* FIRPhoneMultiFactorGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1209395090E5E395D4B4C6D5D600CED7 /* FIRPhoneMultiFactorGenerator.m */; };
 		B870478BE6BBEE7796C8BEE4F730E82D /* GULKeychainStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E7414DFDBC8EB5BCFD53C97CD42E67 /* GULKeychainStorage.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B9141AD54491343A2361593DEE0B75EA /* FirebaseAuthVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 34124AA85E94922395330084538E76B5 /* FirebaseAuthVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -433,9 +435,10 @@
 		BF82120B5488623C35F041B3E2AE4546 /* FIRAuthAppCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C9D0E868925A8F191D68E9C022C729 /* FIRAuthAppCredential.m */; };
 		C048EECBDD5DEB9C0456BC002C447441 /* FIRComponentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 3547D4F0BC30468122F5112AA24D7A2C /* FIRComponentType.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C0B88528AE20F3E544963670A2EC9B02 /* FIRFinalizeMFAEnrollmentResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 634FE9CABF0A87052A1B290A1CB5F179 /* FIRFinalizeMFAEnrollmentResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C141915E9B866B21835D8D8903821325 /* Pods-Paparazzi Pros SwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A3FD99431CFAF4A252C42084C900C1 /* Pods-Paparazzi Pros SwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C15E5B71ABBC7158A807A9AFA7B466B5 /* FIRMultiFactorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 507DF1AB80452B4E9842AEF82A7A0D8E /* FIRMultiFactorConstants.m */; };
 		C22730B02B9312A379BE434A3210A5BE /* FIRVerifyAssertionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C35A4344897FD5A67B35E3D13395079B /* FIRVerifyAssertionRequest.m */; };
-		C27E2538EF6143EB2A3E97D82B52F604 /* Pods-Paparazzi Pros SwiftUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0936976AA529F3B9DB02C736A8ABFA7B /* Pods-Paparazzi Pros SwiftUI-dummy.m */; };
+		C27E2538EF6143EB2A3E97D82B52F604 /* Pods-Paparazzi Pros SwiftUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9027A86BF3A76AF1572ED8CBDCF449 /* Pods-Paparazzi Pros SwiftUI-dummy.m */; };
 		C292B4F73FD540D223CFBC170720F27B /* GDTCORUploadPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA9AC17350E21EFC45F2665095FBD44 /* GDTCORUploadPackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C353FB69B810C87CF87297AB55051D10 /* FIRAuthOperationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9155B3A6C465026D12D956D05446E1AE /* FIRAuthOperationType.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C3591460FCCE2A2B9C8E6FE5B70B6D7F /* FBLPromise+Wrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5023DF00CF7005EE51E42FABB084B854 /* FBLPromise+Wrap.h */; };
@@ -708,6 +711,13 @@
 			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
 			remoteInfo = GoogleUtilities;
 		};
+		ED2F5DCED08C4A81A41EFA48D0F4ECF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6FFD58906589F7BFF52C7327D423003;
+			remoteInfo = "Pods-Paparazzi Pros SwiftUI";
+		};
 		F404438D7D44A689112BF78E660D45BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -774,6 +784,7 @@
 		0146BE2A5A592F567C506CFA0CEA8D4C /* FIRMultiFactorResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMultiFactorResolver.h; path = FirebaseAuth/Sources/Public/FIRMultiFactorResolver.h; sourceTree = "<group>"; };
 		016EB263BD3A4438D48A5A5733E70324 /* FIRGetProjectConfigRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRGetProjectConfigRequest.m; path = FirebaseAuth/Sources/Backend/RPC/FIRGetProjectConfigRequest.m; sourceTree = "<group>"; };
 		01B9B994D9BD26CEF1845151349F0A8F /* FBLPromiseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromiseError.m; path = Sources/FBLPromises/FBLPromiseError.m; sourceTree = "<group>"; };
+		01E5C1FEEC7AFEA8E65301926FCFDC1F /* Pods-Paparazzi Pros SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Paparazzi Pros SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		02411123EEFA24B1D1F7ABC40B69244E /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
 		0271ED5EF0598D7FD795EFFED59F3B5C /* FBLPromise+Async.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Async.h"; path = "Sources/FBLPromises/include/FBLPromise+Async.h"; sourceTree = "<group>"; };
 		031AAA3F3F16EA6C6413F9A1094E3024 /* FirebaseCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FirebaseCore-dummy.m"; sourceTree = "<group>"; };
@@ -787,7 +798,6 @@
 		06BFAB1ED93BC8F2F384B7DE21C587B5 /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
 		06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07906A4D785572A3280EBFC27F2A50FC /* FIRSecureTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRSecureTokenResponse.m; path = FirebaseAuth/Sources/Backend/RPC/FIRSecureTokenResponse.m; sourceTree = "<group>"; };
-		0936976AA529F3B9DB02C736A8ABFA7B /* Pods-Paparazzi Pros SwiftUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Paparazzi Pros SwiftUI-dummy.m"; sourceTree = "<group>"; };
 		099ADC45B32AEF59AF5B0B1B7A812942 /* GDTCORClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORClock.h; path = GoogleDataTransport/GDTCORLibrary/Public/GDTCORClock.h; sourceTree = "<group>"; };
 		09AF20BAF8D720F87038BB14A65BF561 /* FIRAuthDefaultUIDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthDefaultUIDelegate.h; path = FirebaseAuth/Sources/Utilities/FIRAuthDefaultUIDelegate.h; sourceTree = "<group>"; };
 		0BACCA64F50A6E027B0089E8C2AA26BF /* FIRResetPasswordRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRResetPasswordRequest.m; path = FirebaseAuth/Sources/Backend/RPC/FIRResetPasswordRequest.m; sourceTree = "<group>"; };
@@ -813,7 +823,6 @@
 		12B9F92494626404C7BF9CEA8D3B4A0D /* FIRVerifyCustomTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRVerifyCustomTokenResponse.m; path = FirebaseAuth/Sources/Backend/RPC/FIRVerifyCustomTokenResponse.m; sourceTree = "<group>"; };
 		12F586D3E76CB8A700727957BBDFCE39 /* GDTCORDataFuture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORDataFuture.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORDataFuture.m; sourceTree = "<group>"; };
 		13CCCFD8D2A5C5F39852844C73775B63 /* FIRAuthProtoFinalizeMFAPhoneRequestInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthProtoFinalizeMFAPhoneRequestInfo.h; path = FirebaseAuth/Sources/Backend/RPC/Proto/Phone/FIRAuthProtoFinalizeMFAPhoneRequestInfo.h; sourceTree = "<group>"; };
-		13E9E0F634F6A20D09E3A8D17F312F2F /* Pods-Paparazzi Pros SwiftUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Paparazzi Pros SwiftUI-acknowledgements.plist"; sourceTree = "<group>"; };
 		151F232FBA855634639BC9B92EB8E9DD /* FIRSetAccountInfoResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRSetAccountInfoResponse.h; path = FirebaseAuth/Sources/Backend/RPC/FIRSetAccountInfoResponse.h; sourceTree = "<group>"; };
 		15276CCAFF14FEAAF677C3BC79B7CC13 /* PromisesObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesObjC-Info.plist"; sourceTree = "<group>"; };
 		16189A0D66D5C4AABB03240B6797CD82 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
@@ -826,6 +835,7 @@
 		1A48EE5A22F5AECFF08885D8E9F3D577 /* FIRAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuth.h; path = FirebaseAuth/Sources/Public/FIRAuth.h; sourceTree = "<group>"; };
 		1B6857F6384B4614044C9EC9228EEE47 /* FIRAuthSerialTaskQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthSerialTaskQueue.h; path = FirebaseAuth/Sources/Auth/FIRAuthSerialTaskQueue.h; sourceTree = "<group>"; };
 		1B71D726845D23DC3320A6CB29359543 /* FIRResetPasswordRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRResetPasswordRequest.h; path = FirebaseAuth/Sources/Backend/RPC/FIRResetPasswordRequest.h; sourceTree = "<group>"; };
+		1B9027A86BF3A76AF1572ED8CBDCF449 /* Pods-Paparazzi Pros SwiftUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Paparazzi Pros SwiftUI-dummy.m"; sourceTree = "<group>"; };
 		1BC350416776D7C398150A3F35D7640E /* FIRDeleteAccountRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRDeleteAccountRequest.m; path = FirebaseAuth/Sources/Backend/RPC/FIRDeleteAccountRequest.m; sourceTree = "<group>"; };
 		1C393C214A4B621287A2B6C39CD587FC /* FIRAuthWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthWebView.m; path = FirebaseAuth/Sources/Utilities/FIRAuthWebView.m; sourceTree = "<group>"; };
 		1C620061B70C15073ED83DA2272E176E /* FirebaseCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FirebaseCore-umbrella.h"; sourceTree = "<group>"; };
@@ -850,7 +860,6 @@
 		25174651429BB5EA0ADDB53B23E367F2 /* GDTCORReachability_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORReachability_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORReachability_Private.h; sourceTree = "<group>"; };
 		25692893F5CF6D385A9EDF01D53EE8A7 /* FIRGoogleAuthCredential.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRGoogleAuthCredential.m; path = FirebaseAuth/Sources/AuthProvider/Google/FIRGoogleAuthCredential.m; sourceTree = "<group>"; };
 		25C951598859182B834F60BC24AA7D16 /* FIRSendVerificationCodeRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRSendVerificationCodeRequest.m; path = FirebaseAuth/Sources/Backend/RPC/FIRSendVerificationCodeRequest.m; sourceTree = "<group>"; };
-		25D9F3784614DB829956E597B5BAD342 /* Pods-Paparazzi Pros SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Paparazzi Pros SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		2622DA71A5BA77C466CB15D410887FCE /* FIRAuthProtoStartMFAPhoneResponseInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthProtoStartMFAPhoneResponseInfo.h; path = FirebaseAuth/Sources/Backend/RPC/Proto/Phone/FIRAuthProtoStartMFAPhoneResponseInfo.h; sourceTree = "<group>"; };
 		26F54ECA6126178D723429B1C8115CA1 /* FIRVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRVersion.h; path = FirebaseCore/Sources/FIRVersion.h; sourceTree = "<group>"; };
 		28DD5DC1A9452F67D38491644348F44E /* GDTCORTransport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORTransport.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORTransport.m; sourceTree = "<group>"; };
@@ -865,7 +874,6 @@
 		2CD0F51837D9473E6945F5DD914739BD /* FBLPromise+Do.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Do.m"; path = "Sources/FBLPromises/FBLPromise+Do.m"; sourceTree = "<group>"; };
 		2D1AD7D711AC36A7D7D57DC7A5AD13B6 /* FIRGoogleAuthCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRGoogleAuthCredential.h; path = FirebaseAuth/Sources/AuthProvider/Google/FIRGoogleAuthCredential.h; sourceTree = "<group>"; };
 		2D22DC139FE4CCEB9FDE861A6CA11D79 /* FIRAuthDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthDispatcher.h; path = FirebaseAuth/Sources/Auth/FIRAuthDispatcher.h; sourceTree = "<group>"; };
-		2D4A5CC6C2651E165BB36A287E236561 /* Pods-Paparazzi Pros SwiftUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Paparazzi Pros SwiftUI.modulemap"; sourceTree = "<group>"; };
 		2E3E882758303A8108173E34B5D22F2E /* FIRAuthDataResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthDataResult.h; path = FirebaseAuth/Sources/Public/FIRAuthDataResult.h; sourceTree = "<group>"; };
 		2EA6AAAA7067E5AA91C3AA18B14E9C0A /* FIRVerifyCustomTokenResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRVerifyCustomTokenResponse.h; path = FirebaseAuth/Sources/Backend/RPC/FIRVerifyCustomTokenResponse.h; sourceTree = "<group>"; };
 		2EBC91C2B7FBE2E943115E6103F6B1D9 /* GoogleDataTransport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleDataTransport.release.xcconfig; sourceTree = "<group>"; };
@@ -893,6 +901,7 @@
 		35DB425ABF161849BF2D3DB0ED504B56 /* FIRAuthProtoFinalizeMFAPhoneResponseInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthProtoFinalizeMFAPhoneResponseInfo.h; path = FirebaseAuth/Sources/Backend/RPC/Proto/Phone/FIRAuthProtoFinalizeMFAPhoneResponseInfo.h; sourceTree = "<group>"; };
 		36D494140CFF12708BD0C562824B02E6 /* FIRAdditionalUserInfo_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAdditionalUserInfo_Internal.h; path = FirebaseAuth/Sources/User/FIRAdditionalUserInfo_Internal.h; sourceTree = "<group>"; };
 		36F989321272012FA4918BE5050CF1D0 /* FIREmailAuthProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIREmailAuthProvider.m; path = FirebaseAuth/Sources/AuthProvider/Email/FIREmailAuthProvider.m; sourceTree = "<group>"; };
+		3715A318AE2144E569D5CE7BB0E93B0B /* Pods-Paparazzi Pros SwiftUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Paparazzi Pros SwiftUI-Info.plist"; sourceTree = "<group>"; };
 		37559A7B705EA5B4E9B53695F5C2AD96 /* GoogleDataTransportCCTSupport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleDataTransportCCTSupport-umbrella.h"; sourceTree = "<group>"; };
 		377D495C2DD47A386A12BD78838577D5 /* FirebaseCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FirebaseCore-Info.plist"; sourceTree = "<group>"; };
 		37E3DE97837C9F8ACCFCE04A083B3AE3 /* FIRGameCenterAuthCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRGameCenterAuthCredential.h; path = FirebaseAuth/Sources/AuthProvider/GameCenter/FIRGameCenterAuthCredential.h; sourceTree = "<group>"; };
@@ -909,6 +918,7 @@
 		3EC3F10C358AAEA50CA90D8DC03FBE60 /* GULNetworkConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkConstants.m; path = GoogleUtilities/Network/GULNetworkConstants.m; sourceTree = "<group>"; };
 		3F62A093443BB132C3CFC971863B1CA9 /* FirebaseCoreDiagnostics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FirebaseCoreDiagnostics-Info.plist"; sourceTree = "<group>"; };
 		3FD469ED33663C1E882D68742A445FD5 /* FIRUserInfoImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRUserInfoImpl.h; path = FirebaseAuth/Sources/User/FIRUserInfoImpl.h; sourceTree = "<group>"; };
+		3FDD4AE8235A5C475B3A7E9D0BAC409B /* Pods-Paparazzi Pros SwiftUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Paparazzi Pros SwiftUITests-Info.plist"; sourceTree = "<group>"; };
 		41B48516081BD59E70B740462DCEC57F /* cct.nanopb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cct.nanopb.h; path = GoogleDataTransportCCTSupport/GDTCCTLibrary/Protogen/nanopb/cct.nanopb.h; sourceTree = "<group>"; };
 		42488B8E048FE62407A9D8486D948D3A /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
 		426AA0F3CB70CFFEF5EE2857EAA6860A /* FBLPromise+Retry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Retry.m"; path = "Sources/FBLPromises/FBLPromise+Retry.m"; sourceTree = "<group>"; };
@@ -951,6 +961,7 @@
 		537124AF7D5D6B448CCA1917D0076E5F /* FIRFinalizeMFASignInRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRFinalizeMFASignInRequest.h; path = FirebaseAuth/Sources/Backend/RPC/MultiFactor/SignIn/FIRFinalizeMFASignInRequest.h; sourceTree = "<group>"; };
 		53B0C9CD0FE19945A929B96AD9B3E1FB /* GoogleDataTransportCCTSupport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleDataTransportCCTSupport.debug.xcconfig; sourceTree = "<group>"; };
 		5428C2F2D13B715B65593AA9F0EFD2B2 /* FIRGetAccountInfoRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRGetAccountInfoRequest.h; path = FirebaseAuth/Sources/Backend/RPC/FIRGetAccountInfoRequest.h; sourceTree = "<group>"; };
+		54E1F762293A364798EA9113156C5DBE /* Pods-Paparazzi Pros SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Paparazzi Pros SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		550AE360EFE86D8F569DCB6FE4FA0D26 /* FIRVerifyAssertionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRVerifyAssertionRequest.h; path = FirebaseAuth/Sources/Backend/RPC/FIRVerifyAssertionRequest.h; sourceTree = "<group>"; };
 		55571437C63D7507EA852C82FB68ED54 /* FIRCreateAuthURIResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRCreateAuthURIResponse.m; path = FirebaseAuth/Sources/Backend/RPC/FIRCreateAuthURIResponse.m; sourceTree = "<group>"; };
 		5622E3AC6B7830EAD0C093A165DC0D08 /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
@@ -960,7 +971,9 @@
 		57E54A6E8945A45E7F9BE4A6D93A0B52 /* FIROAuthProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIROAuthProvider.m; path = FirebaseAuth/Sources/AuthProvider/OAuth/FIROAuthProvider.m; sourceTree = "<group>"; };
 		583ADB464A492397C9C3EE2754F1E0C9 /* FIRDependency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRDependency.h; path = FirebaseCore/Sources/Private/FIRDependency.h; sourceTree = "<group>"; };
 		58C2A0150950A45939FB3D986601AFC9 /* FIRLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRLogger.h; path = FirebaseCore/Sources/Private/FIRLogger.h; sourceTree = "<group>"; };
+		59CC887CE0A34E4CF1E492E9F8E63B71 /* Pods-Paparazzi Pros SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Paparazzi Pros SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		59DF982FB10A80AFBAF4697CF201FC32 /* GDTCORRegistrar_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORRegistrar_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCORRegistrar_Private.h; sourceTree = "<group>"; };
+		59E5E7DB492CD5453A333563F4E7E74C /* Pods-Paparazzi Pros SwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Paparazzi Pros SwiftUITests.modulemap"; sourceTree = "<group>"; };
 		5ADBF7FDEBAC014F216D3EA9138577CA /* FIRAuthSerialTaskQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthSerialTaskQueue.m; path = FirebaseAuth/Sources/Auth/FIRAuthSerialTaskQueue.m; sourceTree = "<group>"; };
 		5B1B46A6146CF7BB8A7454A381D9B206 /* FBLPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromise.m; path = Sources/FBLPromises/FBLPromise.m; sourceTree = "<group>"; };
 		5C0016EAE648D6F949EFFD25DE2C6D45 /* FIRPhoneMultiFactorInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRPhoneMultiFactorInfo.m; path = FirebaseAuth/Sources/MultiFactor/Phone/FIRPhoneMultiFactorInfo.m; sourceTree = "<group>"; };
@@ -978,6 +991,7 @@
 		634FE9CABF0A87052A1B290A1CB5F179 /* FIRFinalizeMFAEnrollmentResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRFinalizeMFAEnrollmentResponse.h; path = FirebaseAuth/Sources/Backend/RPC/MultiFactor/Enroll/FIRFinalizeMFAEnrollmentResponse.h; sourceTree = "<group>"; };
 		63C643954260110CCC6E550CCB7ABDBF /* GDTCORLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORLifecycle.h; path = GoogleDataTransport/GDTCORLibrary/Public/GDTCORLifecycle.h; sourceTree = "<group>"; };
 		63ED3432C8AEDE43C40D84E5EC03283C /* FIRAuthRequestConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthRequestConfiguration.h; path = FirebaseAuth/Sources/Backend/FIRAuthRequestConfiguration.h; sourceTree = "<group>"; };
+		64576718E41FCEC3F0070F1E2F698C29 /* Pods_Paparazzi_Pros_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Paparazzi_Pros_SwiftUITests.framework; path = "Pods-Paparazzi Pros SwiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B3E8E39F2790839C3DFF13F7053C37 /* FIRGetProjectConfigResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRGetProjectConfigResponse.m; path = FirebaseAuth/Sources/Backend/RPC/FIRGetProjectConfigResponse.m; sourceTree = "<group>"; };
 		657F732D41575CA3C9AA95DFDE9497A9 /* FIRAuthInternalErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthInternalErrors.h; path = FirebaseAuth/Sources/Utilities/FIRAuthInternalErrors.h; sourceTree = "<group>"; };
 		66AC552D408CDD2A3BBDC85322967BA3 /* FIRFinalizeMFASignInRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRFinalizeMFASignInRequest.m; path = FirebaseAuth/Sources/Backend/RPC/MultiFactor/SignIn/FIRFinalizeMFASignInRequest.m; sourceTree = "<group>"; };
@@ -985,13 +999,13 @@
 		678D3018A1FB17A59CF6242DEF70C988 /* FBLPromise+Reduce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Reduce.m"; path = "Sources/FBLPromises/FBLPromise+Reduce.m"; sourceTree = "<group>"; };
 		67967ADD1B6C2488324EE4DFB300D42A /* GDTCOREventTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCOREventTransformer.h; path = GoogleDataTransport/GDTCORLibrary/Public/GDTCOREventTransformer.h; sourceTree = "<group>"; };
 		67975203D5DA97B0402C250787A800EA /* FBLPromise+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+All.h"; path = "Sources/FBLPromises/include/FBLPromise+All.h"; sourceTree = "<group>"; };
+		67A3FD99431CFAF4A252C42084C900C1 /* Pods-Paparazzi Pros SwiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Paparazzi Pros SwiftUITests-umbrella.h"; sourceTree = "<group>"; };
 		67E36F78C5178D3D6FECE47FF9B94084 /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
 		67E9726255588E99948318180CD0649F /* FIRTwitterAuthProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRTwitterAuthProvider.h; path = FirebaseAuth/Sources/Public/FIRTwitterAuthProvider.h; sourceTree = "<group>"; };
 		67F07A6A56BE20D1F353135ABD032666 /* GULLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULLogger.m; path = GoogleUtilities/Logger/GULLogger.m; sourceTree = "<group>"; };
 		69411C3120A197CB7B638D93D1821FD4 /* GoogleDataTransportCCTSupport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleDataTransportCCTSupport.release.xcconfig; sourceTree = "<group>"; };
 		6942351307BC1F54575D9853307EAE0E /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleDataTransportCCTSupport.framework; path = GoogleDataTransportCCTSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F9E58B55F09FF90C1BCC5E77F2E867 /* FIRAuthErrorUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthErrorUtils.h; path = FirebaseAuth/Sources/Utilities/FIRAuthErrorUtils.h; sourceTree = "<group>"; };
-		6A9F10FA0E67E5A910F03AC43643510A /* Pods-Paparazzi Pros SwiftUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Paparazzi Pros SwiftUI-Info.plist"; sourceTree = "<group>"; };
 		6B18E0D0C323DB06D901ADCBF40BA1FF /* FIRVerifyPasswordResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRVerifyPasswordResponse.m; path = FirebaseAuth/Sources/Backend/RPC/FIRVerifyPasswordResponse.m; sourceTree = "<group>"; };
 		6B726E445B43C62123A5E331D33CABA9 /* FirebaseAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FirebaseAuth.modulemap; sourceTree = "<group>"; };
 		6F0B198134385CFBB1F8B3FD8732ECDA /* GDTCCTUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCCTUploader.m; path = GoogleDataTransportCCTSupport/GDTCCTLibrary/GDTCCTUploader.m; sourceTree = "<group>"; };
@@ -1005,12 +1019,14 @@
 		73B05EAF0E802B1142292453C380CAC5 /* FIRMultiFactorAssertion+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIRMultiFactorAssertion+Internal.h"; path = "FirebaseAuth/Sources/MultiFactor/FIRMultiFactorAssertion+Internal.h"; sourceTree = "<group>"; };
 		73B9718974DAB2D2E3AD1375C45976E3 /* FIRAuthAPNSTokenType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthAPNSTokenType.h; path = FirebaseAuth/Sources/Public/FIRAuthAPNSTokenType.h; sourceTree = "<group>"; };
 		750B8085170FCD371CAEB0024D4EACF6 /* GULNetworkLoggerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkLoggerProtocol.h; path = GoogleUtilities/Network/Private/GULNetworkLoggerProtocol.h; sourceTree = "<group>"; };
+		75C7955950DC37091F7140095256C94D /* Pods-Paparazzi Pros SwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Paparazzi Pros SwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		764F27F5F2DA92540E2F515CD14196BA /* GULKeychainUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULKeychainUtils.m; path = GoogleUtilities/Environment/SecureStorage/GULKeychainUtils.m; sourceTree = "<group>"; };
 		7650E4CBFE6AB9B5ACD64AF7B397B1DE /* FIRAuthErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthErrors.h; path = FirebaseAuth/Sources/Public/FIRAuthErrors.h; sourceTree = "<group>"; };
 		76589C8A85BBA2EF589518370AB97E93 /* FIRSignUpNewUserResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRSignUpNewUserResponse.m; path = FirebaseAuth/Sources/Backend/RPC/FIRSignUpNewUserResponse.m; sourceTree = "<group>"; };
 		774B376D62710A614C0771255C378EAE /* FIRPhoneMultiFactorGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRPhoneMultiFactorGenerator.h; path = FirebaseAuth/Sources/Public/FIRPhoneMultiFactorGenerator.h; sourceTree = "<group>"; };
 		775376B17ACFE7E026FFAE1E0EBBD3B3 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = CoreOnly/Sources/Firebase.h; sourceTree = "<group>"; };
 		77CD224064C9D10F2DC7E1E2AAF3497E /* FIRAuthDataResult_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthDataResult_Internal.h; path = FirebaseAuth/Sources/Auth/FIRAuthDataResult_Internal.h; sourceTree = "<group>"; };
+		794528E06838C94B94B663A3F2997BE2 /* Pods-Paparazzi Pros SwiftUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Paparazzi Pros SwiftUI.modulemap"; sourceTree = "<group>"; };
 		7973C8E6F5EDE369B0F1425A583F5B4A /* FirebaseCoreDiagnostics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FirebaseCoreDiagnostics-dummy.m"; sourceTree = "<group>"; };
 		79C5B895B958119F4AC65086CEA61781 /* PromisesObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.release.xcconfig; sourceTree = "<group>"; };
 		79F5C012929FB5597CD48C057656146C /* FIRGitHubAuthProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRGitHubAuthProvider.m; path = FirebaseAuth/Sources/AuthProvider/GitHub/FIRGitHubAuthProvider.m; sourceTree = "<group>"; };
@@ -1038,10 +1054,12 @@
 		84A0EFF64622567DF526C556B9A8A4D8 /* FIRStartMFAEnrollmentRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRStartMFAEnrollmentRequest.m; path = FirebaseAuth/Sources/Backend/RPC/MultiFactor/Enroll/FIRStartMFAEnrollmentRequest.m; sourceTree = "<group>"; };
 		84C62ADBD67F334791A6259DBBF30479 /* GULSceneDelegateSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSceneDelegateSwizzler.m; path = GoogleUtilities/SceneDelegateSwizzler/GULSceneDelegateSwizzler.m; sourceTree = "<group>"; };
 		856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleDataTransport.framework; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86206C4B94701E69CE19E9A83F455B5E /* Pods-Paparazzi Pros SwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Paparazzi Pros SwiftUITests-dummy.m"; sourceTree = "<group>"; };
 		86756EBD838BA3203E1A10A3C4EB993C /* GDTCCTCompressionHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCCTCompressionHelper.m; path = GoogleDataTransportCCTSupport/GDTCCTLibrary/GDTCCTCompressionHelper.m; sourceTree = "<group>"; };
 		87227AA50F598BAA6BAF4FB478E3E5D9 /* GDTCORClock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORClock.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORClock.m; sourceTree = "<group>"; };
 		874C8EE5A654267A53D29640B5FBB48E /* FIRAuthProtoFinalizeMFAPhoneRequestInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthProtoFinalizeMFAPhoneRequestInfo.m; path = FirebaseAuth/Sources/Backend/RPC/Proto/Phone/FIRAuthProtoFinalizeMFAPhoneRequestInfo.m; sourceTree = "<group>"; };
 		877AB7A298E81B31C396C608B4F727F9 /* FIRErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRErrors.m; path = FirebaseCore/Sources/FIRErrors.m; sourceTree = "<group>"; };
+		87D307DE56726394DF4635295B3B4AE4 /* Pods-Paparazzi Pros SwiftUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Paparazzi Pros SwiftUI-umbrella.h"; sourceTree = "<group>"; };
 		87E7414DFDBC8EB5BCFD53C97CD42E67 /* GULKeychainStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULKeychainStorage.h; path = GoogleUtilities/Environment/Public/GULKeychainStorage.h; sourceTree = "<group>"; };
 		888B8297B3FA2683116711765531D78C /* FIRConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRConfiguration.h; path = FirebaseCore/Sources/Public/FIRConfiguration.h; sourceTree = "<group>"; };
 		894B7A9D8F9BEF1684A2B42C56E1E108 /* GULLoggerCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerCodes.h; path = GoogleUtilities/Common/GULLoggerCodes.h; sourceTree = "<group>"; };
@@ -1070,7 +1088,6 @@
 		926457234F1B2216BBEE047351C0DC06 /* FIRAnalyticsConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAnalyticsConfiguration.m; path = FirebaseCore/Sources/FIRAnalyticsConfiguration.m; sourceTree = "<group>"; };
 		927F2A270932C45072334DFA14ABBF9E /* FIRMultiFactorResolver+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIRMultiFactorResolver+Internal.h"; path = "FirebaseAuth/Sources/MultiFactor/FIRMultiFactorResolver+Internal.h"; sourceTree = "<group>"; };
 		929FFCBCCD5E428E364E6091FD376038 /* FIRIdentityToolkitRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRIdentityToolkitRequest.m; path = FirebaseAuth/Sources/Backend/FIRIdentityToolkitRequest.m; sourceTree = "<group>"; };
-		92CAAAB7A336DA9E71B0421BF1F5EAF0 /* Pods-Paparazzi Pros SwiftUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Paparazzi Pros SwiftUI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		92E9B5FD37985C09BA38D70540510F59 /* GULKeychainUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULKeychainUtils.h; path = GoogleUtilities/Environment/Public/GULKeychainUtils.h; sourceTree = "<group>"; };
 		93809AF2D96E86E3E6EBD0AA5C242979 /* Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Firebase.release.xcconfig; sourceTree = "<group>"; };
 		93D6EBB979BA1ACE4E5339BDAD5804DB /* GoogleUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-umbrella.h"; sourceTree = "<group>"; };
@@ -1125,6 +1142,7 @@
 		A9DBE75D0B4C62E41FAA9AAADC273DB7 /* GDTCORTargets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORTargets.h; path = GoogleDataTransport/GDTCORLibrary/Public/GDTCORTargets.h; sourceTree = "<group>"; };
 		A9F8618DB38D1437AB3F2B5F71645307 /* FIRComponentContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRComponentContainer.m; path = FirebaseCore/Sources/FIRComponentContainer.m; sourceTree = "<group>"; };
 		AA13FF8E52F45CAA8E75A16410187C45 /* FIRTwitterAuthProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRTwitterAuthProvider.m; path = FirebaseAuth/Sources/AuthProvider/Twitter/FIRTwitterAuthProvider.m; sourceTree = "<group>"; };
+		AA54CBDC0257550A47CE59401A08B693 /* Pods-Paparazzi Pros SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Paparazzi Pros SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		AA7B490C0D27109B95C801D6906D6C83 /* FIRGetOOBConfirmationCodeResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRGetOOBConfirmationCodeResponse.m; path = FirebaseAuth/Sources/Backend/RPC/FIRGetOOBConfirmationCodeResponse.m; sourceTree = "<group>"; };
 		AA8DAD4A273DCDBE59F1869EC7201565 /* FIRMultiFactorAssertion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMultiFactorAssertion.h; path = FirebaseAuth/Sources/Public/FIRMultiFactorAssertion.h; sourceTree = "<group>"; };
 		AC0A50D60A4D9E4EA14408BEB1AC146D /* FIRSendVerificationCodeRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRSendVerificationCodeRequest.h; path = FirebaseAuth/Sources/Backend/RPC/FIRSendVerificationCodeRequest.h; sourceTree = "<group>"; };
@@ -1194,10 +1212,10 @@
 		C9CE90376CC56D412C9EC144A6B80FA3 /* PromisesObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesObjC.modulemap; sourceTree = "<group>"; };
 		CB5864B27CBD2EFBB0E788BA3FBEBC38 /* GDTCOREvent_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCOREvent_Private.h; path = GoogleDataTransport/GDTCORLibrary/Private/GDTCOREvent_Private.h; sourceTree = "<group>"; };
 		CB59C99F0688C106D0FF9BCF4D867ECE /* FBLPromise+Do.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Do.h"; path = "Sources/FBLPromises/include/FBLPromise+Do.h"; sourceTree = "<group>"; };
-		CBC27E6550209C8DF1E39727BF698204 /* Pods-Paparazzi Pros SwiftUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Paparazzi Pros SwiftUI-umbrella.h"; sourceTree = "<group>"; };
 		CCF312433F1712131C5184995A62372D /* PromisesObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.debug.xcconfig; sourceTree = "<group>"; };
 		CD1EF849BD0E84963EDAD303BCEF1B38 /* FBLPromise+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Testing.h"; path = "Sources/FBLPromises/include/FBLPromise+Testing.h"; sourceTree = "<group>"; };
 		CD78C63FCF1177FA4E93B9A842BDA941 /* FIRTwitterAuthCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRTwitterAuthCredential.h; path = FirebaseAuth/Sources/AuthProvider/Twitter/FIRTwitterAuthCredential.h; sourceTree = "<group>"; };
+		CE50D0660AC35B74D812953099C04647 /* Pods-Paparazzi Pros SwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Paparazzi Pros SwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CEC336CEF2738CA1C337D4450BB46564 /* FBLPromisePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromisePrivate.h; path = Sources/FBLPromises/include/FBLPromisePrivate.h; sourceTree = "<group>"; };
 		CF39760BA4F50DCF2C765383A087F673 /* FirebaseAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FirebaseAuth-dummy.m"; sourceTree = "<group>"; };
 		CF4D5A203CA2DFBA7C86C8C0DC9D175C /* GDTCORUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORUploader.h; path = GoogleDataTransport/GDTCORLibrary/Public/GDTCORUploader.h; sourceTree = "<group>"; };
@@ -1217,6 +1235,7 @@
 		D5128EFEED3923D647382AFB6C2EC39D /* nanopb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.release.xcconfig; sourceTree = "<group>"; };
 		D5BFF3B364CAD37F51F7C30A31114E65 /* GoogleDataTransport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleDataTransport.debug.xcconfig; sourceTree = "<group>"; };
 		D6797DD2CB8A387A3F1C6F8ED0E8A85B /* FBLPromise+Race.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Race.h"; path = "Sources/FBLPromises/include/FBLPromise+Race.h"; sourceTree = "<group>"; };
+		D6C609C4450857BE21C49A33149DE997 /* Pods-Paparazzi Pros SwiftUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Paparazzi Pros SwiftUI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6D83B88B37D1DBD5156F8CDB8257489 /* FIRCoreDiagnosticsConnector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCoreDiagnosticsConnector.h; path = FirebaseCore/Sources/Private/FIRCoreDiagnosticsConnector.h; sourceTree = "<group>"; };
 		D75F41EC9219DB66FC1E5AB0C2026DEC /* GDTCORTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDTCORTransformer.m; path = GoogleDataTransport/GDTCORLibrary/GDTCORTransformer.m; sourceTree = "<group>"; };
 		D7EA867C7CE23B9B2D4537DBB249B802 /* FIROAuthProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIROAuthProvider.h; path = FirebaseAuth/Sources/Public/FIROAuthProvider.h; sourceTree = "<group>"; };
@@ -1274,6 +1293,7 @@
 		F3BC3A688C3ECA52B5B13D7F6E6B9DB2 /* FIRConfigurationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRConfigurationInternal.h; path = FirebaseCore/Sources/Private/FIRConfigurationInternal.h; sourceTree = "<group>"; };
 		F3D1C9F62D88AFF0E5418452B950C279 /* GDTCORAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTCORAssert.h; path = GoogleDataTransport/GDTCORLibrary/Public/GDTCORAssert.h; sourceTree = "<group>"; };
 		F467EA5027387A9C9A24E1C3DDC3179D /* FIRApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRApp.h; path = FirebaseCore/Sources/Public/FIRApp.h; sourceTree = "<group>"; };
+		F48CE8D289E2940ED46BEF47444858B3 /* Pods-Paparazzi Pros SwiftUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Paparazzi Pros SwiftUI-acknowledgements.plist"; sourceTree = "<group>"; };
 		F4B32F923AD06B1DAD7F585801F4328B /* GoogleUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.release.xcconfig; sourceTree = "<group>"; };
 		F4DE5E2FF94D148DBE5AFF0B97D92D6B /* FIRVerifyPhoneNumberRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRVerifyPhoneNumberRequest.h; path = FirebaseAuth/Sources/Backend/RPC/FIRVerifyPhoneNumberRequest.h; sourceTree = "<group>"; };
 		F4FA4A2F8369D1DC781CF720B9F2E093 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
@@ -1281,7 +1301,6 @@
 		F661AC8170CA775736A293E1A60DEA7E /* FirebaseAuthInterop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseAuthInterop.debug.xcconfig; sourceTree = "<group>"; };
 		FA2556F606D412D6D6E2BEA0F100F6DD /* FIRWithdrawMFARequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRWithdrawMFARequest.m; path = FirebaseAuth/Sources/Backend/RPC/MultiFactor/Unenroll/FIRWithdrawMFARequest.m; sourceTree = "<group>"; };
 		FB66B503133EE094993E13F844884F96 /* GULNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GULNSData+zlib.h"; path = "GoogleUtilities/NSData+zlib/GULNSData+zlib.h"; sourceTree = "<group>"; };
-		FB94470CD4D9E4AEF4B76950CA9F5711 /* Pods-Paparazzi Pros SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Paparazzi Pros SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		FC69006466CF70CCA06AE83E7B692D0D /* GULNetworkURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkURLSession.m; path = GoogleUtilities/Network/GULNetworkURLSession.m; sourceTree = "<group>"; };
 		FC9F3F3146ADF268A71EE81F968B0E7F /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
 		FCB474085F1240AB43AC1098B46E0B42 /* GTMSessionFetcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.debug.xcconfig; sourceTree = "<group>"; };
@@ -1313,6 +1332,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2792D349F973D5771E7FD258FADC5293 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C84158D6D5CB1C6A131FD1143A96118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D80CA5CBCC9271BB85CE379CD0492F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1416,22 +1443,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		166AB558DEA26B59BCB4F2F9624D2635 /* Pods-Paparazzi Pros SwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				2D4A5CC6C2651E165BB36A287E236561 /* Pods-Paparazzi Pros SwiftUI.modulemap */,
-				92CAAAB7A336DA9E71B0421BF1F5EAF0 /* Pods-Paparazzi Pros SwiftUI-acknowledgements.markdown */,
-				13E9E0F634F6A20D09E3A8D17F312F2F /* Pods-Paparazzi Pros SwiftUI-acknowledgements.plist */,
-				0936976AA529F3B9DB02C736A8ABFA7B /* Pods-Paparazzi Pros SwiftUI-dummy.m */,
-				6A9F10FA0E67E5A910F03AC43643510A /* Pods-Paparazzi Pros SwiftUI-Info.plist */,
-				CBC27E6550209C8DF1E39727BF698204 /* Pods-Paparazzi Pros SwiftUI-umbrella.h */,
-				25D9F3784614DB829956E597B5BAD342 /* Pods-Paparazzi Pros SwiftUI.debug.xcconfig */,
-				FB94470CD4D9E4AEF4B76950CA9F5711 /* Pods-Paparazzi Pros SwiftUI.release.xcconfig */,
-			);
-			name = "Pods-Paparazzi Pros SwiftUI";
-			path = "Target Support Files/Pods-Paparazzi Pros SwiftUI";
-			sourceTree = "<group>";
-		};
 		18003174B64EC5C0426EC8E3C3F8A57C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1495,12 +1506,22 @@
 			path = GoogleDataTransportCCTSupport;
 			sourceTree = "<group>";
 		};
-		3206895E676E20B33ECF91632D2A9A3B /* Targets Support Files */ = {
+		34B274DC7C1F52EDBE0AD854A86780AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				166AB558DEA26B59BCB4F2F9624D2635 /* Pods-Paparazzi Pros SwiftUI */,
+				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
+				43B1E4CD7B30B9FD278100133C2AC788 /* FirebaseAuth.framework */,
+				E2B63D462DB7F827C4B11FD51E4F8E2D /* FirebaseCore.framework */,
+				8CC9178C366942FD6FF6A115604EAD58 /* FirebaseCoreDiagnostics.framework */,
+				856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */,
+				6942351307BC1F54575D9853307EAE0E /* GoogleDataTransportCCTSupport.framework */,
+				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */,
+				C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher.framework */,
+				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
+				962E13AB101057323552E8DD061B1EC8 /* Pods_Paparazzi_Pros_SwiftUI.framework */,
+				64576718E41FCEC3F0070F1E2F698C29 /* Pods_Paparazzi_Pros_SwiftUITests.framework */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		3D5678E927C7FE124E37692B2CDFF897 /* GTMSessionFetcher */ = {
@@ -1528,23 +1549,6 @@
 				FC69006466CF70CCA06AE83E7B692D0D /* GULNetworkURLSession.m */,
 			);
 			name = Network;
-			sourceTree = "<group>";
-		};
-		458F9065006DF84EED9EC719BEA69260 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
-				43B1E4CD7B30B9FD278100133C2AC788 /* FirebaseAuth.framework */,
-				E2B63D462DB7F827C4B11FD51E4F8E2D /* FirebaseCore.framework */,
-				8CC9178C366942FD6FF6A115604EAD58 /* FirebaseCoreDiagnostics.framework */,
-				856B5CD56F194FAD26EA91620B66D614 /* GoogleDataTransport.framework */,
-				6942351307BC1F54575D9853307EAE0E /* GoogleDataTransportCCTSupport.framework */,
-				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */,
-				C1998E0D8085221AD87F89B614C10E52 /* GTMSessionFetcher.framework */,
-				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
-				962E13AB101057323552E8DD061B1EC8 /* Pods_Paparazzi_Pros_SwiftUI.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		464E6AD85742BE1E30AA3CD2E2B14B46 /* Support Files */ = {
@@ -1990,6 +1994,22 @@
 			name = decode;
 			sourceTree = "<group>";
 		};
+		8D6EABDBBBFA4ADFE35AE868E91F1568 /* Pods-Paparazzi Pros SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				794528E06838C94B94B663A3F2997BE2 /* Pods-Paparazzi Pros SwiftUI.modulemap */,
+				D6C609C4450857BE21C49A33149DE997 /* Pods-Paparazzi Pros SwiftUI-acknowledgements.markdown */,
+				F48CE8D289E2940ED46BEF47444858B3 /* Pods-Paparazzi Pros SwiftUI-acknowledgements.plist */,
+				1B9027A86BF3A76AF1572ED8CBDCF449 /* Pods-Paparazzi Pros SwiftUI-dummy.m */,
+				3715A318AE2144E569D5CE7BB0E93B0B /* Pods-Paparazzi Pros SwiftUI-Info.plist */,
+				87D307DE56726394DF4635295B3B4AE4 /* Pods-Paparazzi Pros SwiftUI-umbrella.h */,
+				01E5C1FEEC7AFEA8E65301926FCFDC1F /* Pods-Paparazzi Pros SwiftUI.debug.xcconfig */,
+				AA54CBDC0257550A47CE59401A08B693 /* Pods-Paparazzi Pros SwiftUI.release.xcconfig */,
+			);
+			name = "Pods-Paparazzi Pros SwiftUI";
+			path = "Target Support Files/Pods-Paparazzi Pros SwiftUI";
+			sourceTree = "<group>";
+		};
 		8D822B7D07613F802DBF614D7815B18C /* GoogleDataTransport */ = {
 			isa = PBXGroup;
 			children = (
@@ -2146,6 +2166,15 @@
 			name = Reachability;
 			sourceTree = "<group>";
 		};
+		A9908B34480B2428A1B200850CA63808 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D6EABDBBBFA4ADFE35AE868E91F1568 /* Pods-Paparazzi Pros SwiftUI */,
+				ECB74E6764269EB673A3D6173EC7562F /* Pods-Paparazzi Pros SwiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -2170,8 +2199,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				0F8B94C737A500EAD8B77A4F8ECC70E8 /* Pods */,
-				458F9065006DF84EED9EC719BEA69260 /* Products */,
-				3206895E676E20B33ECF91632D2A9A3B /* Targets Support Files */,
+				34B274DC7C1F52EDBE0AD854A86780AB /* Products */,
+				A9908B34480B2428A1B200850CA63808 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2234,6 +2263,22 @@
 				6FC5B67D7BBEA0486EA7F6098343E922 /* GULNSData+zlib.m */,
 			);
 			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		ECB74E6764269EB673A3D6173EC7562F /* Pods-Paparazzi Pros SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59E5E7DB492CD5453A333563F4E7E74C /* Pods-Paparazzi Pros SwiftUITests.modulemap */,
+				CE50D0660AC35B74D812953099C04647 /* Pods-Paparazzi Pros SwiftUITests-acknowledgements.markdown */,
+				75C7955950DC37091F7140095256C94D /* Pods-Paparazzi Pros SwiftUITests-acknowledgements.plist */,
+				86206C4B94701E69CE19E9A83F455B5E /* Pods-Paparazzi Pros SwiftUITests-dummy.m */,
+				3FDD4AE8235A5C475B3A7E9D0BAC409B /* Pods-Paparazzi Pros SwiftUITests-Info.plist */,
+				67A3FD99431CFAF4A252C42084C900C1 /* Pods-Paparazzi Pros SwiftUITests-umbrella.h */,
+				59CC887CE0A34E4CF1E492E9F8E63B71 /* Pods-Paparazzi Pros SwiftUITests.debug.xcconfig */,
+				54E1F762293A364798EA9113156C5DBE /* Pods-Paparazzi Pros SwiftUITests.release.xcconfig */,
+			);
+			name = "Pods-Paparazzi Pros SwiftUITests";
+			path = "Target Support Files/Pods-Paparazzi Pros SwiftUITests";
 			sourceTree = "<group>";
 		};
 		F9EE3CF2D7671F4CCFFA30146CEEDA71 /* Firebase */ = {
@@ -2324,6 +2369,14 @@
 				6BF057DB8B3A9779024B5CD4ECDE5B70 /* pb_common.h in Headers */,
 				69616A4D466F7D08F526521C56C43161 /* pb_decode.h in Headers */,
 				DAE8701661B3C5524A39B4DCBC7CA06A /* pb_encode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F3D5F1C13BDFCEC4611D4031357C09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C141915E9B866B21835D8D8903821325 /* Pods-Paparazzi Pros SwiftUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2597,6 +2650,25 @@
 			productReference = 3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4066B0E2DAA5CD20E1B3073A5A710BEB /* Pods-Paparazzi Pros SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC26FACC2AB94350A7EA89619CC8819D /* Build configuration list for PBXNativeTarget "Pods-Paparazzi Pros SwiftUITests" */;
+			buildPhases = (
+				56F3D5F1C13BDFCEC4611D4031357C09 /* Headers */,
+				A62ED0CC05A5118FDFB5D12E14BFFC3F /* Sources */,
+				7C84158D6D5CB1C6A131FD1143A96118 /* Frameworks */,
+				DF591E504C38B3C6878C2717F79EF6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				099C8C5A00A9F4BC6D7DC042A376B955 /* PBXTargetDependency */,
+			);
+			name = "Pods-Paparazzi Pros SwiftUITests";
+			productName = "Pods-Paparazzi Pros SwiftUITests";
+			productReference = 64576718E41FCEC3F0070F1E2F698C29 /* Pods_Paparazzi_Pros_SwiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		4402AFF83DBDC4DD07E198685FDC2DF2 /* FirebaseCore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 860280AAC3D4D19FD34FCF7379E670BC /* Build configuration list for PBXNativeTarget "FirebaseCore" */;
@@ -2803,7 +2875,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 458F9065006DF84EED9EC719BEA69260 /* Products */;
+			productRefGroup = 34B274DC7C1F52EDBE0AD854A86780AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2819,6 +2891,7 @@
 				D676E21115185671D7258A56944ABE98 /* GTMSessionFetcher */,
 				D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */,
 				C6FFD58906589F7BFF52C7327D423003 /* Pods-Paparazzi Pros SwiftUI */,
+				4066B0E2DAA5CD20E1B3073A5A710BEB /* Pods-Paparazzi Pros SwiftUITests */,
 				2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */,
 			);
 		};
@@ -2875,6 +2948,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C370C4BBB6181B0F286E0D2357C7D684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF591E504C38B3C6878C2717F79EF6C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3011,6 +3091,14 @@
 				EDBE7FD488094DAEB5FE155AC7D36862 /* GDTCCTUploader.m in Sources */,
 				A310523F8B57A26E7D3D829650C9385C /* GDTCOREvent+NetworkConnectionInfo.m in Sources */,
 				2AA6942E6EFBEB14AB43679429846275 /* GoogleDataTransportCCTSupport-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A62ED0CC05A5118FDFB5D12E14BFFC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D23F387107349228013FA911E20147 /* Pods-Paparazzi Pros SwiftUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3174,6 +3262,12 @@
 			name = FirebaseAuthInterop;
 			target = 8EC0F2618965C875A96BFDBEE5D9734C /* FirebaseAuthInterop */;
 			targetProxy = A9C1FBB26E5A632DBE4AB00BC164F0C2 /* PBXContainerItemProxy */;
+		};
+		099C8C5A00A9F4BC6D7DC042A376B955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Paparazzi Pros SwiftUI";
+			target = C6FFD58906589F7BFF52C7327D423003 /* Pods-Paparazzi Pros SwiftUI */;
+			targetProxy = ED2F5DCED08C4A81A41EFA48D0F4ECF7 /* PBXContainerItemProxy */;
 		};
 		0E74CEDDF876AF1748DD81C9F0762492 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3670,7 +3764,7 @@
 		};
 		4A5C83CE0F4A9A4E8BDD8169416310AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25D9F3784614DB829956E597B5BAD342 /* Pods-Paparazzi Pros SwiftUI.debug.xcconfig */;
+			baseConfigurationReference = 01E5C1FEEC7AFEA8E65301926FCFDC1F /* Pods-Paparazzi Pros SwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3705,6 +3799,45 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		4C43F7DE9959486A3F195593F7AB182E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E1F762293A364798EA9113156C5DBE /* Pods-Paparazzi Pros SwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Paparazzi Pros SwiftUITests/Pods-Paparazzi Pros SwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Paparazzi Pros SwiftUITests/Pods-Paparazzi Pros SwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		4D59A3781A3A89E97FD794C01C06CEE6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3831,7 +3964,7 @@
 		};
 		69F419A0167ED55A3E099F7BF38860A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB94470CD4D9E4AEF4B76950CA9F5711 /* Pods-Paparazzi Pros SwiftUI.release.xcconfig */;
+			baseConfigurationReference = AA54CBDC0257550A47CE59401A08B693 /* Pods-Paparazzi Pros SwiftUI.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3914,6 +4047,44 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80E6ADFA38F2090E2879651BE3DDE1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CC887CE0A34E4CF1E492E9F8E63B71 /* Pods-Paparazzi Pros SwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Paparazzi Pros SwiftUITests/Pods-Paparazzi Pros SwiftUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Paparazzi Pros SwiftUITests/Pods-Paparazzi Pros SwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4392,6 +4563,15 @@
 			buildConfigurations = (
 				7030B4460C59D1569F2FF54F6B0F7F4F /* Debug */,
 				394729B7C8C298F7861267840240FCE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC26FACC2AB94350A7EA89619CC8819D /* Build configuration list for PBXNativeTarget "Pods-Paparazzi Pros SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E6ADFA38F2090E2879651BE3DDE1E2 /* Debug */,
+				4C43F7DE9959486A3F195593F7AB182E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

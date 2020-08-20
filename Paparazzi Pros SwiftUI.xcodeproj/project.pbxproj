@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0530CD0A24D0B794003B6799 /* WhereAreYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0530CD0924D0B794003B6799 /* WhereAreYou.swift */; };
+		0530CD1224DAF496003B6799 /* Paparazzi_Pros_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0530CD1124DAF496003B6799 /* Paparazzi_Pros_SwiftUITests.swift */; };
+		0530CD1924DAF7EA003B6799 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA73824BF354A00ECC90D /* LoginViewModel.swift */; };
+		0530CD1A24DAF7EA003B6799 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA73B24BF387D00ECC90D /* User.swift */; };
+		0530CD1B24DAF7EA003B6799 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059ED6B624C5C40800F881D4 /* Profile.swift */; };
+		0530CD1C24DAF7EA003B6799 /* Authenticatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E86A524C212E1008C68BB /* Authenticatable.swift */; };
+		0530CD2024DAF8F4003B6799 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0530CD1F24DAF8F4003B6799 /* XCTest.framework */; };
+		0530CD2324DB1948003B6799 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA72724BEF63800ECC90D /* UIColor+Hex.swift */; };
+		0530CD2424DB1948003B6799 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA72924BEFADB00ECC90D /* Color+Hex.swift */; };
+		0530CD2524DB1948003B6799 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA73624BF058B00ECC90D /* Constants.swift */; };
+		0530CD2624DB1948003B6799 /* View+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA73E24BF4A3700ECC90D /* View+CornerRadius.swift */; };
+		0530CD2724DB1948003B6799 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CC9AE224C095A0008E5511 /* Util.swift */; };
+		0530CD2824DB1948003B6799 /* PaparazziError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CC9AE424C09AB8008E5511 /* PaparazziError.swift */; };
 		059E86A624C212E1008C68BB /* Authenticatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E86A524C212E1008C68BB /* Authenticatable.swift */; };
 		059ED6B724C5C40800F881D4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059ED6B624C5C40800F881D4 /* Profile.swift */; };
 		05CC9AE324C095A0008E5511 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CC9AE224C095A0008E5511 /* Util.swift */; };
@@ -31,11 +43,29 @@
 		05EBA73C24BF387D00ECC90D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA73B24BF387D00ECC90D /* User.swift */; };
 		05EBA73F24BF4A3700ECC90D /* View+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA73E24BF4A3700ECC90D /* View+CornerRadius.swift */; };
 		05EBA74324BF661500ECC90D /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA74224BF661500ECC90D /* Loader.swift */; };
+		4D39CA53EF0041DFC3A7865E /* Pods_Paparazzi_Pros_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D9640E06EDB80353CD222E /* Pods_Paparazzi_Pros_SwiftUITests.framework */; };
 		BA53CBBC9177DEA4510470B2 /* Pods_Paparazzi_Pros_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6A1CC9E9CCBCCC7BFEA518 /* Pods_Paparazzi_Pros_SwiftUI.framework */; };
+		E78759F9BA949EB70D633E39 /* Pods_Paparazzi_Pros_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0530CD2124DAF944003B6799 /* Pods_Paparazzi_Pros_SwiftUI.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0530CD1424DAF496003B6799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05EBA70724BE11E600ECC90D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05EBA70E24BE11E600ECC90D;
+			remoteInfo = "Paparazzi Pros SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0530CD0924D0B794003B6799 /* WhereAreYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereAreYou.swift; sourceTree = "<group>"; };
+		0530CD0F24DAF496003B6799 /* Paparazzi Pros SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paparazzi Pros SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0530CD1124DAF496003B6799 /* Paparazzi_Pros_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paparazzi_Pros_SwiftUITests.swift; sourceTree = "<group>"; };
+		0530CD1324DAF496003B6799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0530CD1D24DAF8D3003B6799 /* Pods_Paparazzi_Pros_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Paparazzi_Pros_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0530CD1F24DAF8F4003B6799 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0530CD2124DAF944003B6799 /* Pods_Paparazzi_Pros_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Paparazzi_Pros_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		059E86A524C212E1008C68BB /* Authenticatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticatable.swift; sourceTree = "<group>"; };
 		059ED6B624C5C40800F881D4 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		05CC9AE224C095A0008E5511 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
@@ -61,23 +91,45 @@
 		05EBA73B24BF387D00ECC90D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		05EBA73E24BF4A3700ECC90D /* View+CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+CornerRadius.swift"; sourceTree = "<group>"; };
 		05EBA74224BF661500ECC90D /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		1F6E1B628DCAC2E6222B4884 /* Pods-Paparazzi Pros SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paparazzi Pros SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-Paparazzi Pros SwiftUITests/Pods-Paparazzi Pros SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C35105FFE8BE0A02DFE41DB /* Pods-Paparazzi Pros SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paparazzi Pros SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-Paparazzi Pros SwiftUI/Pods-Paparazzi Pros SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		54AB288432DBB9F3DC627025 /* Pods-Paparazzi Pros SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paparazzi Pros SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-Paparazzi Pros SwiftUITests/Pods-Paparazzi Pros SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AE6A1CC9E9CCBCCC7BFEA518 /* Pods_Paparazzi_Pros_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paparazzi_Pros_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC286A9F36B47D49F873EF8F /* Pods-Paparazzi Pros SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paparazzi Pros SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-Paparazzi Pros SwiftUI/Pods-Paparazzi Pros SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		D6D9640E06EDB80353CD222E /* Pods_Paparazzi_Pros_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paparazzi_Pros_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0530CD0C24DAF496003B6799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0530CD2024DAF8F4003B6799 /* XCTest.framework in Frameworks */,
+				4D39CA53EF0041DFC3A7865E /* Pods_Paparazzi_Pros_SwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05EBA70C24BE11E600ECC90D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA53CBBC9177DEA4510470B2 /* Pods_Paparazzi_Pros_SwiftUI.framework in Frameworks */,
+				E78759F9BA949EB70D633E39 /* Pods_Paparazzi_Pros_SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0530CD1024DAF496003B6799 /* Paparazzi Pros SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0530CD1124DAF496003B6799 /* Paparazzi_Pros_SwiftUITests.swift */,
+				0530CD1324DAF496003B6799 /* Info.plist */,
+			);
+			path = "Paparazzi Pros SwiftUITests";
+			sourceTree = "<group>";
+		};
 		059E86A924C21639008C68BB /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				05EBA71124BE11E600ECC90D /* Paparazzi Pros SwiftUI */,
+				0530CD1024DAF496003B6799 /* Paparazzi Pros SwiftUITests */,
 				05EBA71024BE11E600ECC90D /* Products */,
 				9F79F51B8F0A65C8DD80F012 /* Pods */,
 				3F64CB7491845911A5623FF1 /* Frameworks */,
@@ -100,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				05EBA70F24BE11E600ECC90D /* Paparazzi Pros SwiftUI.app */,
+				0530CD0F24DAF496003B6799 /* Paparazzi Pros SwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,7 +241,11 @@
 		3F64CB7491845911A5623FF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0530CD2124DAF944003B6799 /* Pods_Paparazzi_Pros_SwiftUI.framework */,
+				0530CD1F24DAF8F4003B6799 /* XCTest.framework */,
+				0530CD1D24DAF8D3003B6799 /* Pods_Paparazzi_Pros_SwiftUI.framework */,
 				AE6A1CC9E9CCBCCC7BFEA518 /* Pods_Paparazzi_Pros_SwiftUI.framework */,
+				D6D9640E06EDB80353CD222E /* Pods_Paparazzi_Pros_SwiftUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,6 +255,8 @@
 			children = (
 				3C35105FFE8BE0A02DFE41DB /* Pods-Paparazzi Pros SwiftUI.debug.xcconfig */,
 				BC286A9F36B47D49F873EF8F /* Pods-Paparazzi Pros SwiftUI.release.xcconfig */,
+				1F6E1B628DCAC2E6222B4884 /* Pods-Paparazzi Pros SwiftUITests.debug.xcconfig */,
+				54AB288432DBB9F3DC627025 /* Pods-Paparazzi Pros SwiftUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -204,6 +264,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0530CD0E24DAF496003B6799 /* Paparazzi Pros SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0530CD1624DAF496003B6799 /* Build configuration list for PBXNativeTarget "Paparazzi Pros SwiftUITests" */;
+			buildPhases = (
+				E28DAEB00BEC4914CB2A8822 /* [CP] Check Pods Manifest.lock */,
+				0530CD0B24DAF496003B6799 /* Sources */,
+				0530CD0C24DAF496003B6799 /* Frameworks */,
+				0530CD0D24DAF496003B6799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0530CD1524DAF496003B6799 /* PBXTargetDependency */,
+			);
+			name = "Paparazzi Pros SwiftUITests";
+			productName = "Paparazzi Pros SwiftUITests";
+			productReference = 0530CD0F24DAF496003B6799 /* Paparazzi Pros SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		05EBA70E24BE11E600ECC90D /* Paparazzi Pros SwiftUI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05EBA72324BE11EA00ECC90D /* Build configuration list for PBXNativeTarget "Paparazzi Pros SwiftUI" */;
@@ -228,10 +307,14 @@
 		05EBA70724BE11E600ECC90D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Paparazzi Pros";
 				TargetAttributes = {
+					0530CD0E24DAF496003B6799 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 05EBA70E24BE11E600ECC90D;
+					};
 					05EBA70E24BE11E600ECC90D = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -251,11 +334,19 @@
 			projectRoot = "";
 			targets = (
 				05EBA70E24BE11E600ECC90D /* Paparazzi Pros SwiftUI */,
+				0530CD0E24DAF496003B6799 /* Paparazzi Pros SwiftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0530CD0D24DAF496003B6799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05EBA70D24BE11E600ECC90D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,9 +388,49 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E28DAEB00BEC4914CB2A8822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Paparazzi Pros SwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0530CD0B24DAF496003B6799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0530CD2324DB1948003B6799 /* UIColor+Hex.swift in Sources */,
+				0530CD2424DB1948003B6799 /* Color+Hex.swift in Sources */,
+				0530CD2524DB1948003B6799 /* Constants.swift in Sources */,
+				0530CD2624DB1948003B6799 /* View+CornerRadius.swift in Sources */,
+				0530CD2724DB1948003B6799 /* Util.swift in Sources */,
+				0530CD2824DB1948003B6799 /* PaparazziError.swift in Sources */,
+				0530CD1924DAF7EA003B6799 /* LoginViewModel.swift in Sources */,
+				0530CD1A24DAF7EA003B6799 /* User.swift in Sources */,
+				0530CD1B24DAF7EA003B6799 /* Profile.swift in Sources */,
+				0530CD1C24DAF7EA003B6799 /* Authenticatable.swift in Sources */,
+				0530CD1224DAF496003B6799 /* Paparazzi_Pros_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05EBA70B24BE11E600ECC90D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,6 +455,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0530CD1524DAF496003B6799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05EBA70E24BE11E600ECC90D /* Paparazzi Pros SwiftUI */;
+			targetProxy = 0530CD1424DAF496003B6799 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		05EBA71D24BE11EA00ECC90D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -336,6 +475,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0530CD1724DAF496003B6799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6E1B628DCAC2E6222B4884 /* Pods-Paparazzi Pros SwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58AZ6648H8;
+				INFOPLIST_FILE = "Paparazzi Pros SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asad.paparazzi.pros.Paparazzi-Pros-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paparazzi Pros SwiftUI.app/Paparazzi Pros SwiftUI";
+			};
+			name = Debug;
+		};
+		0530CD1824DAF496003B6799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54AB288432DBB9F3DC627025 /* Pods-Paparazzi Pros SwiftUITests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58AZ6648H8;
+				INFOPLIST_FILE = "Paparazzi Pros SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asad.paparazzi.pros.Paparazzi-Pros-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paparazzi Pros SwiftUI.app/Paparazzi Pros SwiftUI";
+			};
+			name = Release;
+		};
 		05EBA72124BE11EA00ECC90D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -495,6 +678,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0530CD1624DAF496003B6799 /* Build configuration list for PBXNativeTarget "Paparazzi Pros SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0530CD1724DAF496003B6799 /* Debug */,
+				0530CD1824DAF496003B6799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		05EBA70A24BE11E600ECC90D /* Build configuration list for PBXProject "Paparazzi Pros SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

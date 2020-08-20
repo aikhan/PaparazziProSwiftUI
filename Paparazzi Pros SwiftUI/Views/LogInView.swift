@@ -12,7 +12,7 @@ import SwiftUI
 struct LogInView: View {
     @State private var userName = ""
     @State private var password = ""
-    @ObservedObject var loginViewModel =  LoginViewModel(withEmail: "", andPassword: "")
+    @ObservedObject var loginViewModel =  LoginViewModel()
     
     @State var showAlert = false
     @ViewBuilder

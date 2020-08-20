@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F6DA7904-949F-4468-8743-5037EC100B16"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB6D7C06-2BCE-4545-A7F5-684935218C5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Paparazzi Pros SwiftUITests/Paparazzi_Pros_SwiftUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "testLogin()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28DB5124-B5EA-4606-A816-18963368AFBD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Paparazzi Pros SwiftUITests/Paparazzi_Pros_SwiftUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "testLogin()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8CF4209-CFA1-4641-AFA9-235BCF5EAD2A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Paparazzi Pros SwiftUI/Model/User.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "authenticateUser(withEmail:andPassword:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E8CF4209-CFA1-4641-AFA9-235BCF5EAD2A - 3bb0bf14fa332472"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 ((Swift.Result&lt;Swift.Bool, Paparazzi_Pros_SwiftUI.PaparazziError&gt;) -&gt; ()) -&gt; () in Paparazzi_Pros_SwiftUI.User.authenticateUser(withEmail: Swift.String, andPassword: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Bool, Paparazzi_Pros_SwiftUI.PaparazziError&gt;"
+                  moduleName = "Paparazzi Pros SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Asadkhan/Documents/swift/Paparazzi%20Pros%20SwiftUI/Paparazzi%20Pros%20SwiftUI/Model/User.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "463">
+               </Location>
+               <Location
+                  uuid = "E8CF4209-CFA1-4641-AFA9-235BCF5EAD2A - 82f45059bdd7c1f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 ((Swift.Result&lt;Swift.Bool, Paparazzi_Pros_SwiftUITests.PaparazziError&gt;) -&gt; ()) -&gt; () in Paparazzi_Pros_SwiftUITests.User.authenticateUser(withEmail: Swift.String, andPassword: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.Bool, Paparazzi_Pros_SwiftUITests.PaparazziError&gt;"
+                  moduleName = "Paparazzi Pros SwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Asadkhan/Documents/swift/Paparazzi%20Pros%20SwiftUI/Paparazzi%20Pros%20SwiftUI/Model/User.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "463">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

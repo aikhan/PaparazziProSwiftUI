@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0530CD0A24D0B794003B6799 /* WhereAreYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0530CD0924D0B794003B6799 /* WhereAreYou.swift */; };
 		0530CD1224DAF496003B6799 /* Paparazzi_Pros_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0530CD1124DAF496003B6799 /* Paparazzi_Pros_SwiftUITests.swift */; };
 		0530CD1924DAF7EA003B6799 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA73824BF354A00ECC90D /* LoginViewModel.swift */; };
 		0530CD1A24DAF7EA003B6799 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EBA73B24BF387D00ECC90D /* User.swift */; };
@@ -59,7 +58,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0530CD0924D0B794003B6799 /* WhereAreYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereAreYou.swift; sourceTree = "<group>"; };
 		0530CD0F24DAF496003B6799 /* Paparazzi Pros SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paparazzi Pros SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0530CD1124DAF496003B6799 /* Paparazzi_Pros_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paparazzi_Pros_SwiftUITests.swift; sourceTree = "<group>"; };
 		0530CD1324DAF496003B6799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -233,7 +231,6 @@
 			children = (
 				05EBA71624BE11E600ECC90D /* LogInView.swift */,
 				05EBA74224BF661500ECC90D /* Loader.swift */,
-				0530CD0924D0B794003B6799 /* WhereAreYou.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -447,7 +444,6 @@
 				05EBA71724BE11E600ECC90D /* LogInView.swift in Sources */,
 				05EBA73F24BF4A3700ECC90D /* View+CornerRadius.swift in Sources */,
 				05EBA73724BF058B00ECC90D /* Constants.swift in Sources */,
-				0530CD0A24D0B794003B6799 /* WhereAreYou.swift in Sources */,
 				05EBA73924BF354A00ECC90D /* LoginViewModel.swift in Sources */,
 				05CC9AE524C09AB8008E5511 /* PaparazziError.swift in Sources */,
 			);
